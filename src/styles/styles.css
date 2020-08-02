@@ -1,0 +1,164 @@
+.head_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    color: #2B416C;
+}
+.tab_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #556789;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #83A515;
+    font-weight: 500;
+}
+.ant-tabs-ink-bar {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    box-sizing: border-box;
+    height: 2px;
+    background-color: #83A515;
+    transform-origin: 0 0;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: #83A515;
+}
+
+.ant-table-thead > tr > th {
+    background: #F1F1F4;
+    transition: background .3s ease;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    border-bottom: 1px solid #e8e8e8;
+}
+.ant-table-thead > tr > th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #556789;
+}
+.actions_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7788A3;
+}
+.date_bold_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B416C;
+}
+.date_thin_txt{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7788A3;
+}
+.name_bold_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #556789;
+}
+.name_thin_txt{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9CA2B7;
+}
+.modal_bold_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B416C;
+}
+.pricing_bold_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B416C;
+}
+.modal_heading_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2B416C;
+}
+.para_bold_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #556789;
+}
+.para_small_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7788A3;
+}
+.btn{
+    border: 2px solid #181B34;
+    box-sizing: border-box;
+    width: 84;
+    height:48;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #181B34;
+}
+
+.ant-input {
+    border-width: 0;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #ffffff;
+    color: #7788A3;
+    border: #ffffff;
+    
+    
+}
+.ant-calendar-picker-input.ant-input {
+    color: #7788A3;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #fff;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+}
