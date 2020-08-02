@@ -17,8 +17,8 @@ npm start
 
 #Description	
 
-1.Localization:	Select German language from Language selector dropdown	
-2.Campaign Date change:	Select today's date in Past Campaign tab for any campaign	
+#1.Localization:	Select German language from Language selector dropdown	
+#2.Campaign Date change:	Select today's date in Past Campaign tab for any campaign	
 3.Campaign Date change:	Select future date in Past Campaign tab for any campaign	
 
 #Expected output
