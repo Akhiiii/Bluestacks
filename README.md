@@ -25,5 +25,4 @@ npm start
 1.The campaign should be removed from Past campaign tab and appear in Live Campaign tab <br />
 2.The campaign should be removed from Past campaign tab and appear in Upcoming Campaign tab <br />
 
-## Deployed URL
- * (https://github.com/Akhiiii/Bluestacks.git)
+
