@@ -71,6 +71,7 @@ class Campaigns extends Component {
         this.update_data();                // call to update tab wise data
     }
     render() {
+         const width = window.screen.width;
         if (this.state.key == 1) { List = this.state.UpcomingList; }
         else if (this.state.key == 2) { List = this.state.LiveList; }       // setting table data source according to current active key
         else { List = this.state.PastList; }
@@ -188,7 +189,7 @@ class Campaigns extends Component {
         }
         const TableView = () => {              // table component 
             return (
-                <Table loading={this.state.loading} pagination={false} style={{ marginTop: '40px' }} columns={columns} dataSource={List} />
+                <Table scroll={width<850?{ x: 1300 }:{x:0}} loading={this.state.loading} pagination={false} style={{ marginTop: '40px' }} columns={columns} dataSource={List} />
             );
         }
         return (
